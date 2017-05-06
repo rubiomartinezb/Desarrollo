@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>..::Managment Student::..</title>
+ 
+    <!-- CSS de Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+    <div id="margen"> 
+    <div class="well ">
+    <!-- <div class="well"> -->
+    <form method="POST" class="form-signin" role="form" id="miform" action="obtenerdatos.php">
+      <h2 class="form-signin-heading">Calcular sueldo</h2>
+      <br>      
+      <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span><input type="text" class="form-control" placeholder="Nombre" required="" autofocus="" id="n" name="n">
+      </div>
+        <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-lock"></i></span><input type="text" class="form-control" placeholder="sueldo" required="" id="s" name="s">
+        </div>
+        <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span><input type="text" class="form-control" placeholder="Anhos de trabajo" required="" autofocus="" id="a" name="a">
+      </div>
+      <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span><input type="text" class="form-control" placeholder="giro" required="" autofocus="" id="g" name="g">
+      </div>
+        <br>        
+        <button class="btn btn-lg btn btn-block btn-primary" type="submit" id="boton">Submit</button><br>
+        <div class="alert alert-danger" id="mensaje" style="display:none;"></div>
+       </form>
+       </div>
+    </div>
+    <!-- </div> -->
+    </div>
+    <!-- Librer�a jQuery requerida por los plugins de JavaScript -->
+    <script src="js/jquery.min.js"></script>
+ 
+    <!-- Todos los plugins JavaScript de Bootstrap (tambi�n puedes
+         incluir archivos JavaScript individuales de los �nicos
+         plugins que utilices) -->
+    <script src="js/bootstrap.min.js"></script>
+    
+ </body>
+</html>
